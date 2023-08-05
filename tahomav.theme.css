@@ -5,11 +5,11 @@
 
 :root {
   --background-image: url('https://cdn.discordapp.com/attachments/1098280744662605995/1122980452207177848/5d5d22157c879ebcd774383c404d1aff_-_mountain-range-pacific-coast_1.jpg');
-  --background-image-blur: 7px;
+  --background-image-blur: 16px;
   --background-image-size: cover;
   --background-image-position: top left;
-  --popout-image: url('https://cdn.discordapp.com/attachments/1098280744662605995/1122980452207177848/5d5d22157c879ebcd774383c404d1aff_-_mountain-range-pacific-coast_1.jpg');
-  --popout-image-blur: 30px;
+  --popout-image: var(--background-image);
+  --popout-image-blur: 5px;
   --popout-image-size: cover;
   --popout-image-position: center;
   --overlay-image: var(--background-image);
@@ -19,20 +19,20 @@
   --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
   --home-button-size: cover;
   --home-button-position: center;
-  --serverlist-brightness: 0.28;
-  --left-brightness: 0.36;
-  --middle-brightness: 0.24;
-  --right-brightness: 0.28;
-  --overlay-brightness: 0.16;
-  --gradient-primary: 0,152,53;
-  --gradient-secondary: 0,255,157;
-  --link-colour: #81FFAD;
+  --serverlist-brightness: 0.42;
+  --left-brightness: 0.28;
+  --middle-brightness: 0.16;
+  --right-brightness: 0.24;
+  --overlay-brightness: 0.24;
+  --gradient-primary: 103,58,183;
+  --gradient-secondary: 63,81,181;
+  --link-colour: #00b0f4;
   --scrollbar-colour: rgba(255,255,255,0.05);
-  --gradient-direction: 163deg;
-  --tint-colour: 0,195,255;
-  --tint-brightness: 0.02;
+  --gradient-direction: 320deg;
+  --tint-colour: 51,158,255;
+  --tint-brightness: 0.04;
   --font: Tahoma;
-  --window-padding: 7px;
+  --window-padding: 20px;
   --window-roundness: 0px;
   --update-notice-1: none;
 }
