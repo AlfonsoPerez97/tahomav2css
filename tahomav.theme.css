@@ -1,0 +1,69 @@
+/**
+ * @name tahomav2
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tahoma:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://cdn.discordapp.com/attachments/1098280744662605995/1122980452207177848/5d5d22157c879ebcd774383c404d1aff_-_mountain-range-pacific-coast_1.jpg');
+  --background-image-blur: 7px;
+  --background-image-size: cover;
+  --background-image-position: top left;
+  --popout-image: url('https://cdn.discordapp.com/attachments/1098280744662605995/1122980452207177848/5d5d22157c879ebcd774383c404d1aff_-_mountain-range-pacific-coast_1.jpg');
+  --popout-image-blur: 30px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: var(--background-image);
+  --overlay-image-blur: 30px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.28;
+  --left-brightness: 0.36;
+  --middle-brightness: 0.24;
+  --right-brightness: 0.28;
+  --overlay-brightness: 0.16;
+  --gradient-primary: 0,152,53;
+  --gradient-secondary: 0,255,157;
+  --link-colour: #81FFAD;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 163deg;
+  --tint-colour: 0,195,255;
+  --tint-brightness: 0.02;
+  --font: Tahoma;
+  --window-padding: 7px;
+  --window-roundness: 0px;
+  --update-notice-1: none;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+}
+
+/* Any custom CSS below here */
+
+
